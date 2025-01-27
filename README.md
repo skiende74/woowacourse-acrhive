@@ -56,8 +56,8 @@
 ## 레벨 3 ~ 4. 팀 프로젝트 - 모바일 웹 방끗(bang-ggood)
 
 활동 기간 : 📅 2024. 07. 02 ~ 2024.11.31 (5개월)
-#### [방끗 서비스 바로가기](https://bang-ggood.com/)
 
+#### [방끗 서비스 바로가기](https://bang-ggood.com/)
 #### [방끗 Repository 바로가기](https://github.com/woowacourse-teams/2024-bang-ggood)
 
 서비스 기획부터, AWS 배포 및 CI/CD 자동화, 운영까지의 전체 사이클을 애자일한 방법으로(2주단위 스프린트 x 8회) 경험해볼 수 있었습니다.
@@ -67,9 +67,8 @@
     <td><a href="https://github.com/woowacourse-teams/2024-bang-ggood">방끗 깃허브</a></td>
     <td><a href="https://bang-ggood.com/">방끗 페이지</a></td>
     <td><a href="https://github.com/woowacourse-teams/2024-bang-ggood/wiki">방끗 wiki</a></td>
+    <td><a href="https://www.figma.com/board/nAlskmwHcmlvbhiT1L1cSK/%EB%B0%A9%EB%81%97-%ED%94%BC%EA%B7%B8%EC%9E%BC?node-id=0-1&t=XAdJbckT6RXSdRsY-1">방끗 회의 Figjam</a></td>
 </table>
-
-<a href="https://www.figma.com/board/nAlskmwHcmlvbhiT1L1cSK/%EB%B0%A9%EB%81%97-%ED%94%BC%EA%B7%B8%EC%9E%BC?node-id=0-1&t=XAdJbckT6RXSdRsY-1">방끗 회의</a>
 
 
 
