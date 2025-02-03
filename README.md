@@ -4,7 +4,7 @@
 
 활동 기간 : 📅 2024.02.13 - 2024.11.29
 
-## 레벨 1
+## 레벨 1 ( JS 미션 )
 
 📅 2024.02.13 ~ 2024.04.05
 
@@ -27,6 +27,35 @@
 |                 | [step 2](https://github.com/woowacourse/javascript-lunch/pull/177)        | -                                        | [호프](https://github.com/moonheekim0118)     |
 | 🎬 영화 리뷰    | [step 1](https://github.com/woowacourse/javascript-movie-review/pull/138) | [마루](https://github.com/rbgksqkr) | [하루](https://github.com/365kim)       |
 |                 | [step 2](https://github.com/woowacourse/javascript-movie-review/pull/177) | -                                        | [하루](https://github.com/365kim)       |
+
+### 배운 점
+#### 자동차 경주
+MVP 구조를 이용해 구현하였습니다. 팀원과 페어 프로그래밍을 하며 페어프로그래밍의 장단점에대해 생각해볼 수 있었습니다.
+
+#### 로또
+<details><summary>펼치기</summary>
+
+**TDD** : TDD 수행시 우선테스트를먼저작성하고(레드), 그다음 구현을 하는(그린), **레드-그린 테스트** 과정을 철저히 따르며 구현하였습니다.
+놓치는 요구사항 없이 안정감있고 TDD로도 속도감 있는 개발을 할 수 있다고 느꼈습니다.
+TDD를 적용할지말지에 대한 기준도 마련할 수 있었는데, 해당문제가 자신에게 익숙한 상황이라면 TDD가 가능하고, 완전히 처음짜보는 문제에서는 TDD가 적절하지 않을 수 있다고 판단했습니다.
+
+**MVP** : MVP구조로, View를 모르는 모델을 만들고, View를 두개(CLI, HTML) 만들어서 하나의 서비스를 수정없이 두가지 뷰에서 사용할 수 있도록 구현하였습니다.
+- 키워드 : TDD, 인자전달시 POJO(퓨어 JS 객체) 사용, 원시값 래핑, 일급 컬렉션 등
+- 읽은 책 : 테스트 주도개발 시작하기(최범균 저)
+
+**custom elements** : 스텝2에서 HTML상황에서의 컴포넌트 분리 위해, custom elements를 도입하였습니다. 
+
+</details>
+
+#### 점심 뭐 먹지
+<details><summary>펼치기</summary>
+
+**e2e 테스트** : cypress e2e테스트를 해보았는데, 
+**innerHTML시 XSS 문제 대처** : DB에서 내려온 데이터를 이용하여 innerHTML로 보여주게 될 경우 XSS에 취약하다는 문제가 있었습니다.
+따라서 innerHTML에는 DB데이터가 포함되지않은 정적인 데이터만 초기에 띄우고, DB데이터는 querySelector().innerText를 이용하여 띄워줌으로서 
+XSS문제를 해결하였습니다.
+**is attribute** : 커스텀 elements간에 서로를 재사용하기위해 is attribute를 활용하였습니다.
+</details>
 
 ## 레벨 2
 
