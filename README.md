@@ -43,19 +43,21 @@ TDD를 적용할지말지에 대한 기준도 마련할 수 있었는데, 해당
 - 키워드 : TDD, 인자전달시 POJO(퓨어 JS 객체) 사용, 원시값 래핑, 일급 컬렉션 등
 - 읽은 책 : 테스트 주도개발 시작하기(최범균 저)
 
-**custom elements** : 스텝2에서 HTML상황에서의 컴포넌트 분리 위해, custom elements를 도입하였습니다. 
+**custom elements** : 스텝2에서 HTML상황에서의 컴포넌트 분리 위해, 웹 컴포넌트 API인 custom elements를 도입하였습니다. 
 
 </details>
 
 #### 점심 뭐 먹지
 <details><summary>펼치기</summary>
 
-**e2e 테스트** : cypress e2e테스트를 해보았는데, 
 **innerHTML시 XSS 문제 대처** : DB에서 내려온 데이터를 이용하여 innerHTML로 보여주게 될 경우 XSS에 취약하다는 문제가 있었습니다.
 따라서 innerHTML에는 DB데이터가 포함되지않은 정적인 데이터만 초기에 띄우고, DB데이터는 querySelector().innerText를 이용하여 띄워줌으로서 
 XSS문제를 해결하였습니다.
+
 **is attribute** : 커스텀 elements간에 서로를 재사용하기위해 is attribute를 활용하였습니다.
 </details>
+
+- 키워드 : e2e, XSS, custom elements
 
 ## 레벨 2
 
